@@ -1,0 +1,43 @@
+#area{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+}
+#areaBtn{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: darkseagreen ;
+}
+#btn, #btnRemove{
+    margin-top: 20px;
+
+    width: 80px;
+    height: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: aquamarine;
+    transition-duration: 2s;
+    border: none;
+}
+#btnRemove{
+    margin-left: 500px;
+    margin-top: -200px;
+
+}
